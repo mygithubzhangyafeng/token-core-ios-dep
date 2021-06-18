@@ -5,7 +5,7 @@
 typedef NS_ENUM(int8_t, BTCMnemonicWordListType) {
     // English wordlist specified by BIP39.
     BTCMnemonicWordListTypeEnglish = 0,
-
+    BTCMnemonicWordListTypeSimplifiedChinese = 1
     // If this is specified when importing mnemonic, checksum can not be verified.
     BTCMnemonicWordListTypeUnknown = -1,
 };
